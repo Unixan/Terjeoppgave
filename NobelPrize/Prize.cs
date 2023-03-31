@@ -22,7 +22,7 @@
             for (var i = 0; i < Laureates?.Length; i++)
             {
                 var laureate = Laureates[i];
-                if (Laureates[i] != null)  prizeWinners.Add(laureate.GetLaureateInfo());
+                prizeWinners.Add(laureate.GetLaureateInfo());
             }
 
             return prizeWinners.ToArray();

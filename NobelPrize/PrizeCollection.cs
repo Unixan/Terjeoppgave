@@ -26,7 +26,7 @@
 
             for (var i = 0; i < multipleWins.Length; i++)
             {
-                var number = (i + 1).ToString().PadLeft(3);
+                var number = (i + 1).ToString().PadLeft(2,'0');
                 var winner = multipleWins[i];
                 Console.WriteLine($"{number} {winner}");
             }
